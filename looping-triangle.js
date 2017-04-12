@@ -15,3 +15,12 @@ while (triangle.length < 8) {
   console.log(triangle);
   triangle = triangle + "#";
 }
+
+OR
+
+var triangle ="#";
+undefined
+for (var triangle; triangle.length<8;) {
+    console.log(triangle);
+    triangle = triangle + "#";
+}
